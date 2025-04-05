@@ -59,10 +59,10 @@ layers:
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
-  - '&pw_l'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-up-bold$$
-  - '&pw_s'
-  - '&pw_su'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -149,9 +149,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - {t: '&studio_unlock', type: held}
-  - F1
-  - F2
-  - F3
+  - '&pw_s'
+  - '&pw_s'
+  - '&pw_l'
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - '&msc MOVE_Y(15)'
