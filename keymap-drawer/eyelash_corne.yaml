@@ -154,7 +154,7 @@ layers:
   - F3
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - '&msc MOVE_Y(15)'
   - F6
   - F7
   - $$mdi:arrow-up-bold$$
@@ -167,9 +167,9 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - '&bl BL_TOG'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - '&msc MOVE_X(-15)'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&msc MOVE_X(15)'
   - $$mdi:progress-download$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -179,11 +179,11 @@ layers:
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
+  - EP TOG
   - '&bl BL_DEC'
   - '&bl BL_INC'
   - $$mdi:volume-off$$
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - '&msc MOVE_Y(-15)'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
@@ -201,9 +201,9 @@ combos:
   k: $$mdi:mouse-left-click-outline$$
 - p: [22, 23]
   k: $$mdi:mouse-left-click-outline$$
-- p: [7, 8]
-  k: $$mdi:mouse-right-click-outline$$
-- p: [22, 23]
+- p: [8, 9]
   k: $$mdi:mouse-right-click-outline$$
 - p: [23, 24]
+  k: $$mdi:mouse-right-click-outline$$
+- p: [25, 24]
   k: F10
