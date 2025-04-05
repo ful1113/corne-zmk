@@ -117,7 +117,7 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &mmv MOVE_UP                     &kp N6           &kp N7           &pw_l            &kp UP_ARROW     &pw_s      &pw_su
+&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &mmv MOVE_UP                     &kp N6           &kp N7           &none            &kp UP_ARROW     &none      &none
 &trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp LEFT         &kp DOWN         &kp RIGHT  &kp PG_UP
 &trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END    &kp PG_DN
                                          &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &trans
@@ -141,7 +141,7 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3           &bt BT_PRV  &bt BT_NXT                                    &msc MOVE_Y(15)                    &kp F6       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F10          &kp F11
+&studio_unlock  &pw_s       &pw_s      &pw_l            &bt BT_PRV  &bt BT_NXT                                    &msc MOVE_Y(15)                    &kp F6       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F10          &kp F11
 &trans          &trans      &mkp LCLK  &mkp MCLK        &bl BL_TOG  &bt BT_SEL 0                &msc MOVE_X(-15)  &none             &msc MOVE_X(15)  &bootloader  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PRINTSCREEN  &kp F12
 &bt BT_CLR      &sys_reset  &trans     &rgb_ug RGB_TOG  &bl BL_DEC  &bl BL_INC    &kp C_MUTE                      &msc MOVE_Y(-15)                   &trans       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SCROLLLOCK   &kp PAUSE_BREAK
                                        &trans           &trans      &trans                                                                           &trans       &trans        &kp NUMBER_0
