@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '=', s: +}
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
@@ -27,8 +27,8 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: '-', s: _}
+  - RIGHT GUI
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:apple-keyboard-command$$', h: SYMBOL}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-tab$$
