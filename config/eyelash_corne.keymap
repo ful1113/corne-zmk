@@ -69,6 +69,11 @@
             bindings = <&mkp RCLK>;
             key-positions = <22 23>;
         };
+
+        f10 {
+            bindings = <&kp F10>;
+            key-positions = <23 24>;
+        };
     };
 
     keymap {
@@ -77,10 +82,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&lt 3 ESC   &kp Q  &kp W  &kp E           &kp R      &kp T                             &mmv MOVE_UP                     &kp Y       &kp U      &kp I           &kp O    &kp P      &kp EQUAL
-&kp LSHIFT  &kp A  &kp S  &kp D           &kp F      &kp G             &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &kp H       &kp J      &kp K           &kp L    &kp MINUS  &kp RIGHT_GUI
-&kp LCTRL   &kp Z  &kp X  &kp C           &kp V      &kp B    &none                    &mmv MOVE_DOWN                   &kp N       &kp M      &kp COMMA       &kp DOT  &kp FSLH   &kp RIGHT_ALT
-                          &lt 2 LEFT_GUI  &kp SPACE  &kp TAB                                                            &kp DELETE  &kp ENTER  &lt 1 INT_KANA
+&lt 3 ESC   &kp Q  &kp W  &kp E           &kp R      &kp T                             &mmv MOVE_UP                     &kp Y     &kp U      &kp I           &kp O    &kp P      &kp EQUAL
+&kp LSHIFT  &kp A  &kp S  &kp D           &kp F      &kp G             &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &kp H     &kp J      &kp K           &kp L    &kp MINUS  &kp RIGHT_GUI
+&kp LCTRL   &kp Z  &kp X  &kp C           &kp V      &kp B    &none                    &mmv MOVE_DOWN                   &kp N     &kp M      &kp COMMA       &kp DOT  &kp FSLH   &kp RIGHT_ALT
+                          &lt 2 LEFT_GUI  &kp SPACE  &kp TAB                                                            &kp BSPC  &kp ENTER  &lt 1 INT_KANA
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -113,10 +118,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3       &bt BT_PRV  &bt BT_NXT                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &bl BL_TOG  &bt BT_SEL 0                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&bt BT_CLR      &sys_reset  &trans     &bootloader  &bl BL_DEC  &bl BL_INC    &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                       &trans       &trans      &trans                                                                       &trans       &trans     &trans
+&studio_unlock  &kp F1      &kp F2     &kp F3       &bt BT_PRV  &bt BT_NXT                                  &mmv MOVE_UP                     &kp F6       &kp F7    &kp UP       &kp F9      &kp F10          &kp F11
+&trans          &trans      &mkp LCLK  &mkp MCLK    &bl BL_TOG  &bt BT_SEL 0                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &kp LEFT  &kp DOWN     &kp RIGHT   &kp PRINTSCREEN  &kp F12
+&bt BT_CLR      &sys_reset  &trans     &bootloader  &bl BL_DEC  &bl BL_INC    &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans    &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
+                                       &trans       &trans      &trans                                                                       &trans       &trans    &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
