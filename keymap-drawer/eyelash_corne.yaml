@@ -179,7 +179,7 @@ layers:
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
-  - EP TOG
+  - RGB TOG
   - '&bl BL_DEC'
   - '&bl BL_INC'
   - $$mdi:volume-off$$
