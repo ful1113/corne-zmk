@@ -60,7 +60,7 @@ layers:
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - $$mdi:arrow-up-bold$$
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -74,9 +74,9 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - HOME
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
@@ -156,9 +156,9 @@ layers:
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - '&msc MOVE_Y(15)'
   - F6
-  - F7
-  - $$mdi:arrow-up-bold$$
-  - F9
+  - '1'
+  - '2'
+  - '3'
   - F10
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
@@ -171,9 +171,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&msc MOVE_X(15)'
   - $$mdi:progress-download$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - '4'
+  - '5'
+  - '6'
   - PRINTSCREEN
   - F12
   - $$mdi:bluetooth-off$$
@@ -185,9 +185,9 @@ layers:
   - $$mdi:volume-off$$
   - '&msc MOVE_Y(-15)'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - '7'
+  - '8'
+  - '9'
   - SCROLLLOCK
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
@@ -195,7 +195,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '0'
 combos:
 - p: [8, 7]
   k: $$mdi:mouse-left-click-outline$$
