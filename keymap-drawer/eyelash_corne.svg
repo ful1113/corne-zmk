@@ -635,8 +635,7 @@ rect.held, rect.combo.held {
 <g transform="translate(784, 28)" class="key keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">8</text>
-<text x="0" y="-24" class="key shifted">*</text>
+<text x="0" y="-4" class="key tap">&amp;pw_l</text>
 </g>
 <g transform="translate(840, 35)" class="key keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -646,13 +645,12 @@ rect.held, rect.combo.held {
 <g transform="translate(896, 49)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">0</text>
-<text x="0" y="-24" class="key shifted">)</text>
+<text x="0" y="-4" class="key tap">&amp;pw_s</text>
 </g>
-<g transform="translate(952, 49)" class="key backspace keypos-12">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key backspace side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-9" y="-13" height="18" width="18.0" class="key backspace tap glyph mdi:backspace"/>
+<g transform="translate(952, 49)" class="key keypos-12">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">&amp;pw_su</text>
 </g>
 <g transform="translate(28, 105)" class="key trans keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
