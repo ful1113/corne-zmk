@@ -46,7 +46,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-command$$', h: SYMBOL}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-tab$$
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: INT KANA, h: NUMBER}
   NUMBER:
@@ -157,7 +157,7 @@ layers:
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
   - F7
-  - F8
+  - $$mdi:arrow-up-bold$$
   - F9
   - F10
   - F11
@@ -171,9 +171,9 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:progress-download$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - PRINTSCREEN
   - F12
   - $$mdi:bluetooth-off$$
@@ -205,3 +205,5 @@ combos:
   k: $$mdi:mouse-right-click-outline$$
 - p: [22, 23]
   k: $$mdi:mouse-right-click-outline$$
+- p: [23, 24]
+  k: F10
