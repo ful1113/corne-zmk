@@ -28,8 +28,8 @@ layers:
   - K
   - L
   - {t: '-', s: _}
-  - RIGHT GUI
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
   - Z
   - X
   - C
@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:apple-keyboard-command$$', h: SYMBOL}
+  - {t: LANGUAGE 1, h: SYMBOL}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
   - {t: '$$mdi:backspace$$', type: backspace}
