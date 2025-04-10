@@ -266,3 +266,5 @@ combos:
   k: F6
 - p: [1, 0]
   k: PRINTSCREEN
+- p: [27, 26]
+  k: '&hyphen'

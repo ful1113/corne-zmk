@@ -592,6 +592,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
 <text x="56" y="49" class="combo tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
 </g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="910" y="92" width="28" height="26" class="combo"/>
+<text x="924" y="105" class="combo tap"><tspan style="font-size: 86%">&amp;hyphen</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-NUMBER">
@@ -910,6 +914,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
 <text x="56" y="49" class="combo tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
 </g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="910" y="92" width="28" height="26" class="combo"/>
+<text x="924" y="105" class="combo tap"><tspan style="font-size: 86%">&amp;hyphen</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 637)" class="layer-SYMBOL">
@@ -1211,6 +1219,10 @@ rect.held, rect.combo.held {
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
 <text x="56" y="49" class="combo tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="910" y="92" width="28" height="26" class="combo"/>
+<text x="924" y="105" class="combo tap"><tspan style="font-size: 86%">&amp;hyphen</tspan></text>
 </g>
 </g>
 </g>
@@ -1518,6 +1530,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
 <text x="56" y="49" class="combo tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
 </g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="910" y="92" width="28" height="26" class="combo"/>
+<text x="924" y="105" class="combo tap"><tspan style="font-size: 86%">&amp;hyphen</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1274)" class="layer-Win">
@@ -1823,6 +1839,10 @@ rect.held, rect.combo.held {
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
 <text x="56" y="49" class="combo tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="910" y="92" width="28" height="26" class="combo"/>
+<text x="924" y="105" class="combo tap"><tspan style="font-size: 86%">&amp;hyphen</tspan></text>
 </g>
 </g>
 </g>
