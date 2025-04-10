@@ -99,6 +99,11 @@
             bindings = <&kp PRINTSCREEN>;
             key-positions = <1 0>;
         };
+
+        hyphen {
+            bindings = <&hyphen>;
+            key-positions = <27 26>;
+        };
     };
 
     macros {
@@ -121,6 +126,13 @@
             #binding-cells = <0>;
             bindings = <&kp LS(R) &kp X &kp MINUS &kp N1 &kp N7 &kp N8 &kp MINUS &kp N0 &kp A &kp U &kp A &kp U>;
             label = "PW_L";
+        };
+
+        hyphen: hyphen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS &kp SPACE>;
+            label = "HYPHEN";
         };
     };
 
