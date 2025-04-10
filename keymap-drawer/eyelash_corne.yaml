@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-option$$
-  - {t: LANGUAGE 1, h: SYMBOL}
+  - {t: LANG2, h: SYMBOL}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: INT KANA, h: NUMBER}
+  - {t: LANG1, h: NUMBER}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -256,3 +256,13 @@ combos:
   k: $$mdi:mouse-right-click-outline$$
 - p: [25, 24]
   k: F10
+- p: [10, 11]
+  k: '@'
+- p: [36, 37]
+  k: F2
+- p: [9, 10]
+  k: F7
+- p: [39, 38]
+  k: F6
+- p: [1, 0]
+  k: PRINTSCREEN
