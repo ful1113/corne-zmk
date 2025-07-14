@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: '-', s: _}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-command$$
   - Z
   - X
@@ -42,13 +42,13 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-option$$
-  - {t: LANG2, h: SYMBOL}
+  - '@'
   - $$mdi:keyboard-space$$
+  - {t: LANG2, h: SYMBOL}
   - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: LANG1, h: NUMBER}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -96,8 +96,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - INS
-  - $$mdi:backspace-reverse-outline$$
-  - {type: held alternate}
+  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
@@ -108,9 +108,9 @@ layers:
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - ^
   - '&'
-  - '*'
   - (
   - )
+  - '*'
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
@@ -141,8 +141,8 @@ layers:
   - '}'
   - '|'
   - '~'
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
